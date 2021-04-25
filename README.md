@@ -78,13 +78,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Title
+## Student Grade Prediction - Riset Operational
+## Group Member and Contribution
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project is made to fulfill the final project for the Operational Research lecture. The goal of this project is to predict the final grade of a student given in dataset with the adaptation of machine learning, helped with the EDA analysis to see the most correlated indicators to the result. The data itself can be accessed on Kaggle “Student Grade Prediction” which comes from the University of Minho, Portugal. Those data consist of 33 columns which provide the approach of secondary student achievement in two Portuguese schools and were collected by using school reports and questioners. 
 
-### Built With
+## Methods
 
 This project is built with.
 * [Rstudio](https://www.rstudio.com/)
@@ -92,12 +93,12 @@ This project is built with.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Performance
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Prediction
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -105,7 +106,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+## Result
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -124,7 +125,7 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## References
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
