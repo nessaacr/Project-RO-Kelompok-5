@@ -79,18 +79,23 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Student Grade Prediction - Riset Operational
-## Group Member and Contribution
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## About The Project
 
 This project is made to fulfill the final project for the Operational Research lecture. The goal of this project is to predict the final grade of a student given in dataset with the adaptation of machine learning, helped with the EDA analysis to see the most correlated indicators to the result. The data itself can be accessed on Kaggle “Student Grade Prediction” which comes from the University of Minho, Portugal. Those data consist of 33 columns which provide the approach of secondary student achievement in two Portuguese schools and were collected by using school reports and questioners. 
 
+## Group Member and Contribution
+
+Team 5 - Student Grade Prediction (https://www.kaggle.com/dipam7/student-grade-prediction)
+Members:
+1. Rolent Phan - 
+2. Sherly Nathasya - Data Correlation and Visualization
+3. Teofilus Michael - Prediction with Machine Learning
+4. Vanessa Chriszella (Leader) - Front-end display and project report
+
 ## Methods
 
-This project is built with.
-* [Rstudio](https://www.rstudio.com/)
-
-
+First, we compare three prediction models which are Tress, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy escalation of all models with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
 
 <!-- GETTING STARTED -->
 ## Performance
