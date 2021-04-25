@@ -61,13 +61,13 @@
       <ul>
         <li><a href="#eda-result-and-explanation">EDA Result and Explanation</a></li>
         <li><a href="#machine-learning-evaluation">Machine Learning Evaluation</a></li>
-          <ol>
+          <al>
             <li><a href="#tree-amount-configuration">Tree Amount Configuration</a></li>
             <li><a href="#each-split-atribut-amount-configuration">Each Split Atribut Amount Configuration</a></li>
             <li><a href="#tree-depth-level-configuration">Tree Depth Level Configuration</a></li>
             <li><a href="#replicable-training-configuration">Replicable Training Configuration</a></li>
             <li><a href="#balance-class-distribution-configuration">Balance Class Distribution Configuration</a></li>
-          </ol>
+          </al>
       </ul>
     </li>
     <li>
