@@ -91,11 +91,11 @@ Members:
 1. Rolent Phan - 
 2. Sherly Nathasya - Data Correlation and Visualization
 3. Teofilus Michael - Prediction with Machine Learning
-4. Vanessa Chriszella (Leader) - Front-end display and project report
+4. Vanessa Chriszella (Leader) - Front-end Display and Poject Report
 
 ## Methods
 
-First, we compare three prediction models which are Trees, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy of all models to increase with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
+First, we compare three prediction models which are Tress, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy escalation of all models with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
 
 <!-- GETTING STARTED -->
 ## Performance
@@ -104,7 +104,7 @@ First, we compare three prediction models which are Trees, Random Forest, and SV
 In Random Forest, the number of trees used greatly affects the quality of the resulting prediction model. The more trees you should use, the better the quality. However, there is research on the number of trees in Random Forest which states that even though the more trees used will increase the accuracy and precision, there is one point where the increase is insignificant and only creates a burden in the data processing. The study also states that the optimal number of trees, namely the right number before the increase in accuracy becomes insignificant, is between 64 and 128 trees. Taking this into account, we configured our prediction model in terms of the number of trees used by Random Forest.
 After several experiments in Orange3, it can be seen that the more the number of trees, the higher the quality of the resulting model. However, when the number of trees was 128 and 256, they did not change significantly, and also the MAE value increased. Taking this into account and also keeping in mind the research results on this topic, we decided to use the number tree 128.
 
-### Amount of Attribute Considered Each Split Configuration
+### Each Split Atribut Amount Configuration
 To find the configuration that produces the highest quality model, we also try to configure the number of attributes to consider in each split. By using Orange3 to try, the best results are obtained when the configuration of the number of attributes considered is not configured, but using the default value of Orange3 so that the number of attributes considered is the root of the number of attributes in the data. Therefore, we will not configure this aspect of our model.
 After trying several values in this parameter, it is found that the value obtained from the configuration experiment of the minimum value of the subset proves that the minimum value, which is 2, produces the best value among the other values. Therefore, it is this value that will be used.
 
@@ -113,7 +113,7 @@ Since the Decision Tree is highly influenced by its depth in terms of Pre-Prunin
 From the results of the experiment through Orange3, it can be seen that the highest Pre-Pruning value is when the Maximum Depth is 19, but this value is still lower than the default value, which is no Pre-Pruning. Therefore, the prediction model does not use Pre-Pruning.
 
 ### Replicable Training Configuration
-The Replicable Training parameter sets the seed of the Tree, so the result can be replicable. To obtain the highest value prediction model results, these parameters also need to be considered and configured.
+The Replicalable Training parameter sets the seed of the Tree, so the result can be a replica. To obtain the highest value prediction model results, these parameters also need to be considered and configured.
 From the experimental results, it can be concluded that Replicalable Training does not have a positive impact on the quality of the prediction model, therefore in this configuration, this parameter will not be activated.
 
 ### Balance Class Distribution Configuration
@@ -122,30 +122,36 @@ It can be seen from the results above that Balance Class Distribution, such as R
 
 
 
-## Prediction
+## Prediction and Result
+This plots below show the result of Final Grade Prediction (G3) based on the most correlated indiactors gotten from Data Analysis and Visualization. 
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-## Result
-
+### Application Display
+When we run the application, we will see the Application Display. At the sidebarPanel (left side) we can upload the CVS file, then pick the indicator as the reference of the prediction. After that, we can click the Run Analysis button to view the result of the prediction.
 <img src="images/AppDisplay.jpg" >
 
+### Understand the graph
+The graph shows us the prediction on the mainpanel (right side). The y-asix presents the indicator we choose before and the x-asix presents the result of student final grade.
+For each indicators, there will be 2 dotplot graphs shown. The first dotplot graph presents the student finnal grade from the prediction with machine learning, while the second dotplot graph presents the student final grade based on the original data from Kaggle. To make user compare both of graphs easier, we set them as the different colour (blue for prediction and red for original data)
+
+### Prediction based on age
 <img src="images/age.jpg" >
 
+### Prediction based on amount of failures
 <img src="images/failures.jpg" >
 
+### Prediction based on the mother education
 <img src="images/Medu.jpg" >
 
+### Prediction based on the father education
 <img src="images/Fedu.jpg" >
 
+### Prediction based on who wants to have higher education
 <img src="images/Higher.jpg" >
 
+### Prediction based on who likes to go out
 <img src="images/goout.jpg" >
 
+### Prediction based on whose having romantic relationship
 <img src="images/romantic.jpg" >
 
 
@@ -154,10 +160,12 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## References
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Breiman, L. (2001). Random Forests. In Machine Learning, 45(1), 5-32.
+https://towardsdatascience.com/  
+Introduction to SVM on StatSoft
+https://medium.com/ 
+https://mljar.com/ 
+Oshiro, Thais & Perez, Pedro & Baranauskas, José. (2012). How Many Trees in a Random Forest?. Lecture notes in computer science. 7376. 10.1007/978-3-642-31537-4_13.
 
 
 
