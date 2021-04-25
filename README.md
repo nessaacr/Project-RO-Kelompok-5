@@ -53,11 +53,14 @@
 <details open="open">
   <summary>Student Grade Prediction - Riset Operational</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
+  <li><a href="#about-the-project">About The Project</a></li>
+  <li><a href="#group-member-and-contribution">Group Member and Contribution</a></li>
+  <li><a href="#methods">Methods</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#performance">Performance</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#eda-result-and-explanation">EDA Result and Explanation</a></li>
+        <li><a href="#machine-learning-evaluation">Machine Learning Evaluation</a></li>
       </ul>
     </li>
     <li>
