@@ -76,6 +76,7 @@
         <li><a href="#application-display">Application Display</a></li>
         <li><a href="#understand-the-graph">Understand the Graph</a></li>
         <li><a href="#prediction-based-on-age">Prediction Based on Age</a></li>
+        <li><a href="#prediction-based-on-amount-of-failures">Prediction Based on Amount of Failures</a></li>
         <li><a href="#prediction-based-on-mother-education">Prediction Based on Mother Education</a></li>
         <li><a href="#prediction-based-on-father-education">Prediction Based on Father Education</a></li>
         <li><a href="#prediction-based-on-who-wants-to-have-higher-educationh">Prediction Based on Who Wants to Have Higher Education</a></li>
