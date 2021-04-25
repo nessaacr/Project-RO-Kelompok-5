@@ -78,7 +78,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Pr
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -86,10 +86,8 @@ This project is made to fulfill the final project for the Operational Research l
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+This project is built with.
+* [Rstudio](https://www.rstudio.com/)
 
 
 
