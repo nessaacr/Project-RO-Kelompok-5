@@ -180,6 +180,18 @@ https://flowingdata.com/2010/01/21/how-to-make-a-heatmap-a-quick-and-easy-soluti
 
 https://www.statmethods.net/graphs/dot.html
 
+https://shiny.rstudio.com/gallery/
+
+https://shiny.rstudio.com/tutorial/
+
+https://towardsdatascience.com/how-to-build-a-data-analysis-app-in-r-shiny-143bee9338f7
+
+http://www.sthda.com/english/wiki/ggplot2-colors-how-to-change-colors-automatically-and-manually
+
+https://bbolker.github.io/R-ecology-lesson/04-visualization-ggplot2.html
+
+https://thomasleeper.com/Rcourse/Tutorials/plotcolors.html
+
 Oshiro, Thais & Perez, Pedro & Baranauskas, José. (2012). How Many Trees in a Random Forest?. Lecture notes in computer science. 7376. 10.1007/978-3-642-31537-4_13.
 
 
