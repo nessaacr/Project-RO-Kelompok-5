@@ -161,10 +161,15 @@ For each indicators, there will be 2 dotplot graphs shown. The first dotplot gra
 <!-- USAGE EXAMPLES -->
 ## References
 Breiman, L. (2001). Random Forests. In Machine Learning, 45(1), 5-32.
+
 https://towardsdatascience.com/  
+
 Introduction to SVM on StatSoft
+
 https://medium.com/ 
+
 https://mljar.com/ 
+
 Oshiro, Thais & Perez, Pedro & Baranauskas, José. (2012). How Many Trees in a Random Forest?. Lecture notes in computer science. 7376. 10.1007/978-3-642-31537-4_13.
 
 
