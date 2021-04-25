@@ -51,7 +51,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Title</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -78,7 +78,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Pr
+## Title
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
