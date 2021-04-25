@@ -95,7 +95,7 @@ Members:
 
 ## Methods
 
-First, we compare three prediction models which are Tress, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy escalation of all models with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
+First, we compare three prediction models which are Trees, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy of all models to increase with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
 
 <!-- GETTING STARTED -->
 ## Performance
