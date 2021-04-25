@@ -94,7 +94,7 @@ Members:
 4. Vanessa Chriszella (Leader) - Front-end Display and Poject Report
 
 ## Methods
-
+<img src="images/comparingPredictionDisplayOrange3.jpg" >
 First, we compare three prediction models which are Tress, Random Forest, and SVM to see the accuracy of each model. We use Cross-Validation with Fold 10 at first which shows that Random Forest has the most accuracy. In the second comparison, we use Random Sampling with Training Set size 60% that leads to inaccuracy of all models. When we increase the Training Set size from 60% to 80%, it causes accuracy escalation of all models with Random Forest on the top of the list. Therefore, we use Random Forest as our method in this project due to the consistency of the accuracy. 
 
 <!-- GETTING STARTED -->
@@ -103,23 +103,26 @@ First, we compare three prediction models which are Tress, Random Forest, and SV
 <img src="images/HeadMap.jpg" >
 In the Heatmap above, we can see several different colors that have different meanings. Each data in this heatmap is correlated between the rows and columns. The darker the color that is owned means that the data has a value that is far from the average. Meanwhile, the brighter the color it means that more the data has a value that is around the average. The dendrogram lines that are above and beside the heatmap indicate the correlation that exists in the row and column data. We can see from the data "age" that there are several mixed colors, meaning that the data in this column is correlated with the data in the row and is around the average value "or it can be interpreted that age does not have an effect on student scores. Then the data "schoolsup" and "famsize" have a color in the middle, meaning this data is on average "to affect student scores.
 
-### Tree Amount Configuration
+### Machine Learning Evaluation
+<img src="images/finalPredictDisplay.jpg" >
+
+#### Tree Amount Configuration
 In Random Forest, the number of trees used greatly affects the quality of the resulting prediction model. The more trees you should use, the better the quality. However, there is research on the number of trees in Random Forest which states that even though the more trees used will increase the accuracy and precision, there is one point where the increase is insignificant and only creates a burden in the data processing. The study also states that the optimal number of trees, namely the right number before the increase in accuracy becomes insignificant, is between 64 and 128 trees. Taking this into account, we configured our prediction model in terms of the number of trees used by Random Forest.
 After several experiments in Orange3, it can be seen that the more the number of trees, the higher the quality of the resulting model. However, when the number of trees was 128 and 256, they did not change significantly, and also the MAE value increased. Taking this into account and also keeping in mind the research results on this topic, we decided to use the number tree 128.
 
-### Each Split Atribut Amount Configuration
+#### Each Split Atribut Amount Configuration
 To find the configuration that produces the highest quality model, we also try to configure the number of attributes to consider in each split. By using Orange3 to try, the best results are obtained when the configuration of the number of attributes considered is not configured, but using the default value of Orange3 so that the number of attributes considered is the root of the number of attributes in the data. Therefore, we will not configure this aspect of our model.
 After trying several values in this parameter, it is found that the value obtained from the configuration experiment of the minimum value of the subset proves that the minimum value, which is 2, produces the best value among the other values. Therefore, it is this value that will be used.
 
-### Tree Depth Level Configuration
+#### Tree Depth Level Configuration
 Since the Decision Tree is highly influenced by its depth in terms of Pre-Pruning and Post-Pruning, and the Random Forest is a collection of Decision Trees, this needs to be configured as well for higher quality.
 From the results of the experiment through Orange3, it can be seen that the highest Pre-Pruning value is when the Maximum Depth is 19, but this value is still lower than the default value, which is no Pre-Pruning. Therefore, the prediction model does not use Pre-Pruning.
 
-### Replicable Training Configuration
+#### Replicable Training Configuration
 The Replicalable Training parameter sets the seed of the Tree, so the result can be a replica. To obtain the highest value prediction model results, these parameters also need to be considered and configured.
 From the experimental results, it can be concluded that Replicalable Training does not have a positive impact on the quality of the prediction model, therefore in this configuration, this parameter will not be activated.
 
-### Balance Class Distribution Configuration
+#### Balance Class Distribution Configuration
 This parameter refers to the Weigh Classes of the data and when activated creates weigh classes that are inversely proportional to their frequency in the data. It must also be configured to improve the quality of the prediction model.
 It can be seen from the results above that Balance Class Distribution, such as Replicalable Training has a negative impact on the value of the precision and accuracy of the prediction model. Therefore, this parameter will not be activated.
 
