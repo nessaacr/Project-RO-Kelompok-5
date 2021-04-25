@@ -99,6 +99,9 @@ First, we compare three prediction models which are Tress, Random Forest, and SV
 
 <!-- GETTING STARTED -->
 ## Performance
+### EDA Result and Explanation
+<img src="images/HeadMap.jpg" >
+In the Heatmap above, we can see several different colors that have different meanings. Each data in this heatmap is correlated between the rows and columns. The darker the color that is owned means that the data has a value that is far from the average. Meanwhile, the brighter the color it means that more the data has a value that is around the average. The dendrogram lines that are above and beside the heatmap indicate the correlation that exists in the row and column data. We can see from the data "age" that there are several mixed colors, meaning that the data in this column is correlated with the data in the row and is around the average value "or it can be interpreted that age does not have an effect on student scores. Then the data "schoolsup" and "famsize" have a color in the middle, meaning this data is on average "to affect student scores.
 
 ### Tree Amount Configuration
 In Random Forest, the number of trees used greatly affects the quality of the resulting prediction model. The more trees you should use, the better the quality. However, there is research on the number of trees in Random Forest which states that even though the more trees used will increase the accuracy and precision, there is one point where the increase is insignificant and only creates a burden in the data processing. The study also states that the optimal number of trees, namely the right number before the increase in accuracy becomes insignificant, is between 64 and 128 trees. Taking this into account, we configured our prediction model in terms of the number of trees used by Random Forest.
@@ -169,6 +172,10 @@ Introduction to SVM on StatSoft
 https://medium.com/ 
 
 https://mljar.com/ 
+
+https://flowingdata.com/2010/01/21/how-to-make-a-heatmap-a-quick-and-easy-solution/
+
+https://www.statmethods.net/graphs/dot.html
 
 Oshiro, Thais & Perez, Pedro & Baranauskas, José. (2012). How Many Trees in a Random Forest?. Lecture notes in computer science. 7376. 10.1007/978-3-642-31537-4_13.
 
