@@ -61,28 +61,29 @@
       <ul>
         <li><a href="#eda-result-and-explanation">EDA Result and Explanation</a></li>
         <li><a href="#machine-learning-evaluation">Machine Learning Evaluation</a></li>
-          <al>
+          <ol>
             <li><a href="#tree-amount-configuration">Tree Amount Configuration</a></li>
             <li><a href="#each-split-atribut-amount-configuration">Each Split Atribut Amount Configuration</a></li>
             <li><a href="#tree-depth-level-configuration">Tree Depth Level Configuration</a></li>
             <li><a href="#replicable-training-configuration">Replicable Training Configuration</a></li>
             <li><a href="#balance-class-distribution-configuration">Balance Class Distribution Configuration</a></li>
-          </al>
+          </ol>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#prediction-and-result">Prediction and Result</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#application-display">Application Display</a></li>
+        <li><a href="#understand-the-graph">Understand the Graph</a></li>
+        <li><a href="#prediction-based-on-age">Prediction Based on Age</a></li>
+        <li><a href="#prediction-based-on-mother-education">Prediction Based on Mother Education</a></li>
+        <li><a href="#prediction-based-on-father-education">Prediction Based on Father Education</a></li>
+        <li><a href="#prediction-based-on-who-wants-to-have-higher-educationh">Prediction Based on Who Wants to Have Higher Education</a></li>
+        <li><a href="#prediction-based-on-who-likes-to-go-out">Prediction Based on Who Likes to Go Out</a></li>
+        <li><a href="#prediction-based-on-whose-having-romantic-relationship">Prediction Based on Whose Having Romantic Relationship</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -146,29 +147,29 @@ This plots below show the result of Final Grade Prediction (G3) based on the mos
 When we run the application, we will see the Application Display. At the sidebarPanel (left side) we can upload the CVS file, then pick the indicator as the reference of the prediction. After that, we can click the Run Analysis button to view the result of the prediction.
 <img src="images/AppDisplay.jpg" >
 
-### Understand the graph
+### Understand the Graph
 The graph shows us the prediction on the mainpanel (right side). The y-asix presents the indicator we choose before and the x-asix presents the result of student final grade.
 For each indicators, there will be 2 dotplot graphs shown. The first dotplot graph presents the student finnal grade from the prediction with machine learning, while the second dotplot graph presents the student final grade based on the original data from Kaggle. To make user compare both of graphs easier, we set them as the different colour (blue for prediction and red for original data)
 
-### Prediction based on age
+### Prediction Based on Age
 <img src="images/age.jpg" >
 
-### Prediction based on amount of failures
+### Prediction Based on Amount of Failures
 <img src="images/failures.jpg" >
 
-### Prediction based on the mother education
+### Prediction Based on Mother Education
 <img src="images/Medu.jpg" >
 
-### Prediction based on the father education
+### Prediction Based on Father Education
 <img src="images/Fedu.jpg" >
 
-### Prediction based on who wants to have higher education
+### Prediction Based on Who Wants to Have Higher Education
 <img src="images/Higher.jpg" >
 
-### Prediction based on who likes to go out
+### Prediction Based on Who Likes to Go Out
 <img src="images/goout.jpg" >
 
-### Prediction based on whose having romantic relationship
+### Prediction Based on Whose Having Romantic Relationship
 <img src="images/romantic.jpg" >
 
 
