@@ -52,8 +52,8 @@
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Student Grade Prediction - Riset Operational</summary>
-  <li><a href="#About The Project">About The Project</a></li>
   <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
