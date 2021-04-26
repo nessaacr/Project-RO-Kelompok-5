@@ -139,6 +139,9 @@ From the experimental results, it can be concluded that Replicalable Training do
 This parameter refers to the Weigh Classes of the data and when activated creates weigh classes that are inversely proportional to their frequency in the data. It must also be configured to improve the quality of the prediction model.
 It can be seen from the results above that Balance Class Distribution, such as Replicalable Training has a negative impact on the value of the precision and accuracy of the prediction model. Therefore, this parameter will not be activated.
 
+#### Final Model Performance Result
+After all the configurations is applied, the resulting error rate of the model are as follows:
+
 
 
 ## Prediction and Result
