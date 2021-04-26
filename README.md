@@ -104,7 +104,7 @@ Members:
 1. Rolent Phan - 
 2. Sherly Nathasya - Data Correlation and Visualization
 3. Teofilus Michael - Prediction with Machine Learning
-4. Vanessa Chriszella (Leader) - Front-end Display and Poject Report
+4. Vanessa Chriszella (Leader) - Front-end Display and Project Report
 
 ## Methods
 <img src="images/comparingPredictionDisplayOrange3.jpg" >
