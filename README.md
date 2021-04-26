@@ -141,6 +141,7 @@ It can be seen from the results above that Balance Class Distribution, such as R
 
 #### Final Model Performance Result
 After all the configurations is applied, the resulting error rate of the model are as follows:
+<img src="images/errorRate.jpg" >
 
 
 
