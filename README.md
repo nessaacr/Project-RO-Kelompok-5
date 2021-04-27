@@ -148,6 +148,12 @@ After all the configurations is applied, the resulting error rate of the Random 
 
 <img src="images/errorRate.jpg" >
 
+<img src="images/crossValidation.jpg" >
+
+<img src="images/randSamp66.jpg" >
+
+<img src="images/randSamp80.jpg" >
+
 
 
 ## Prediction and Result
