@@ -140,6 +140,8 @@ This parameter refers to the Weigh Classes of the data and when activated create
 It can be seen from the results above that Balance Class Distribution, such as Replicalable Training has a negative impact on the value of the precision and accuracy of the prediction model. Therefore, this parameter will not be activated.
 
 #### Final Model Performance Result
+The result of the comparing machine learning models are as follows:
+(gambar disini)
 After all the configurations is applied, the resulting error rate of the model are as follows:
 <img src="images/errorRate.jpg" >
 
